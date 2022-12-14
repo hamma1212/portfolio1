@@ -1,0 +1,183 @@
+.body{
+    margin: 0%;
+}
+.nav{
+    border-bottom: 2px solid rgb(170, 92, 47);
+    margin-top:0;
+    padding:1% 2;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index:;
+    background-color: lavenderblush;
+}
+.nav_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding:5px;
+    z-index: 2;
+    /* border-bottom: 2px solid rgb(170, 92, 47); */
+}
+.sitename h2{
+    margin: 0;
+   
+    display: inline-block !important; 
+}
+.navigation_links{
+    position: absolute;
+    top: 0;
+    right:0;
+    margin:auto 0%;
+    float:right;
+    width:40%;
+    font-size: 20px;
+    text-align: right;
+}
+
+.navigation_links a{
+    margin: auto 2%;
+}
+/* Section_one */
+.section_one{
+    background-color: hsl(198, 100%, 50%);
+    position: relative;
+    text-align: center;
+    height:100%;
+    padding: 4px;
+    margin-top: 5vh;
+}
+.section_one h1{
+    font-size:4rem;
+    font-family: 'Tangerine', serif;
+}
+.section_one p{
+    font-size: 2.2rem;
+    margin: 3% 0;
+}
+.section_one p span{
+    text-decoration:underline;
+}
+.cloud_one, .cloud_two{
+    position: absolute;
+}
+.cloud_one{
+    top: 5%;
+    right: 15%;
+}
+.cloud_two{
+    bottom: 40%;
+    left: 20%;
+}
+.section_two{
+    padding: 5% 25%;
+}
+ .profile_container{
+     text-align: center;
+
+ }
+ .profile_img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.profile_container p{
+    width: 40%;
+    margin: 5% auto;
+}
+.skills_container h3{
+    margin:5% 0 7%;
+    text-align:center ;
+}
+.skills_container img{
+    width: 150px;
+}
+.skill_one img, .skill_three{
+    float: left;
+    margin-right: 4%;
+
+}
+.skill_two img{
+    float: right;
+    margin-right: 3%;
+}
+a{
+    text-decoration: none;
+}
+.contact_me_container h5{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.contact_me_container h3{
+    text-align: center;
+}
+.contact_me_container p{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.contact_me_container a{
+    margin-left:37%;
+    color: whitesmoke;
+    background-color: black;
+    padding: 2% 4%;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.contact_me_container a:hover{
+    background-color: black;
+    color:steelblue;
+}
+.links{
+    margin: 0 3%;
+    color: black;
+    padding-top: 10px;
+}
+#Linkedin{
+    margin:10px;
+}
+#google{
+    margin-left: 10px;
+}
+.links a:hover{
+    color: gray;
+}
+.footer{
+    height: 12vh;
+    background-color:tan;
+    text-align: center;
+    padding-top: 5%;
+}
+.footer p{
+    margin-top:3% 0 ;
+    font-size:0.8rem;
+    color: blue;
+}
+h3, h5{
+    color: chocolate;
+
+}
+h5{
+    font-size:1.4rem ;
+    font-weight: 500;
+}
+p{
+    font-size: 1.1rem;
+}
+h3{
+    font-size: 2.3rem;
+    font-weight: 600px;
+}
+hr{
+    border-style: dotted;
+    border-top: none;
+    border-width: 8px;
+    border-color: cornflowerblue;
+    width:10%;
+    margin: 4% auto;
+    border-spacing: 2px;
+}
